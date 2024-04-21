@@ -37,11 +37,13 @@ new Chart(hr, {
             scales: {
                 x: {
                     ticks: {
+                        display: false,
                         color: 'rgb(255, 0, 0)' // Change the color to red
                     }
                 },
                 y: {
                     ticks: {
+                        display: false,
                         color: 'rgb(255, 0, 0)' // Change the color to red
                     }
                 }
