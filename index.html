@@ -29,11 +29,37 @@
                 <canvas id = "waterLevel"></canvas>
             </div>
         </div>
-        <div class="row">
-
-        </div>
+        <br><br>
+        <center><div class="row" id = "analytics">
+            <div class="analysisdiv">
+                <h2>Heart rate</h2>
+                <p id = "hrc">Current:</p>
+                <p id = "hra">Average:</p>
+            </div>
+            <div class="analysisdiv">
+                <h2>Blood pressure</h2>
+                <h3>Systolic</h3>
+                <p id = "bpsc">Current:</p>
+                <p id = "bpsa">Average:</p>
+                <h3>Diastolic</h3>
+                <p id = "bpdc">Current:</p>
+                <p id = "bpda">Average:</p>
+            </div>
+            <div class="analysisdiv">
+                <h2>SpO<sub>2</sub></h2>
+                <p id = "spo2c">Current:</p>
+                <p id = "spo2a">Average:</p>
+            </div>
+            <div class="analysisdiv">
+                <h2>Water level</h2>
+                <p id = "wlc">Current:</p>
+                <p id = "wla">Average:</p>
+            </div>
+        </div></center>
+        <br>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script src = "scripts/getdata.js"></script>
         <script src = "scripts/showdata.js"></script>
+        <script src = "scripts/analytics.js"></script>
     </body>
 </html>

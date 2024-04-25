@@ -136,5 +136,5 @@ async function updateCharts() {
     await g();
 }
 
-updateCharts();
-setInterval(updateCharts, 15000);
+// updateCharts();
+// setInterval(updateCharts, 15000);
